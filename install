@@ -1,0 +1,8 @@
+python3 -m pip install --upgrade pip
+sudo jupyter lab build
+sudo nmcli connection add type wifi con-name outofrange ssid hhsjetracer ifname wlan0 802-11-wireless-security.key-mgmt WPA-PSK 802-11-wireless-security.psk EMES2022
+pip install torch torchvision
+cd ~/jetracer
+sudo python3 setup.py install
+cd ~
+
